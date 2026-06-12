@@ -14,6 +14,13 @@ app.use((req, res, next) => {
 });
 
 
+app.get("/", (req, res) => {
+    res.json({
+        success: true,
+        message: "EduReach API is running"
+    });
+});
+
 app.use(
     cors({
         origin: process.env.CLIENT_URL || "http://localhost:5173",
