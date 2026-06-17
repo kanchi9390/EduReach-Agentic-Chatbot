@@ -1,5 +1,7 @@
 # EduReach (code-backed summary)
 
+Published: https://edureach-agentic-chatbot.onrender.com/
+
 ## Overview
 - Purpose: Web application that provides an authenticated SPA and a knowledge-grounded conversational assistant backed by a retrieval pipeline.
 - Target users: end-users of the SPA (frontend code includes login/signup and chat UI).
