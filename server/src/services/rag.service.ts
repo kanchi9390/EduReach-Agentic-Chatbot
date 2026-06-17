@@ -173,7 +173,6 @@ export const getRAGResponse = async (question: string): Promise<string> => {
     const vectorStore = await getVectorStore();
     const retrieve = createRetrieveTool(vectorStore);
 
-    console.log("Invoking RAG agent with question:", question, retrieve);
 
     const model = new ChatGoogleGenerativeAI({
       model: "gemini-2.5-flash",
